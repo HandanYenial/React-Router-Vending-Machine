@@ -9,7 +9,5 @@ function Doritos() {
             alt = "Doritos"
         />
     </div>
-  )
-}
-
+  )}
 export default Doritos

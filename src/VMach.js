@@ -9,7 +9,7 @@ function VMach() {
             src = "https://media.giphy.com/media/3orieJKdBJeQIfKqiY/giphy.gif"
             alt = "vending machine"
         />
-                <div>
+        <div>
           <ul>
             <li><Link to = "/coke">Coke</Link></li>
             <li><Link to = "/doritos">Doritos</Link></li>

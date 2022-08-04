@@ -14,9 +14,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
          <Link to = "/">Vending Machine</Link>
-
-          
-
          <Routes>
           <Route exact path ="/" element={<VMach />} />
           <Route exact path = "/coke" element = {<Coke/>}/>
@@ -25,11 +22,8 @@ function App() {
           <Route exact path = "/kitkat" element = {<Kitkat/>}/>
           <Route exact path = "/oreo" element = {<Oreo/>}/>
          </Routes>
-
       </BrowserRouter>
-
     </div>
   );
 }
-
 export default App;
